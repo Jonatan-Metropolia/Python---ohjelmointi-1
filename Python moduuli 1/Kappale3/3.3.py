@@ -14,4 +14,4 @@ elif sukupuoli == str("nainen") and hemoglobiini<117:
     print("Hemoglobiini on liian matala")
 elif sukupuoli == str("nainen") and hemoglobiini>175:
     print("Hemoglobiini on liian korkea")
-
+#

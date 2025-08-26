@@ -5,3 +5,4 @@ if kuha < 37:
     print("Kuhan pituudesta puuttuu " + str(kuhanpuuttuva) + "cm")
 else:
     print("Kuha on tarpeeksi iso, voit pitää sen!")
+    #

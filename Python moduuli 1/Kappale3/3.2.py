@@ -10,4 +10,4 @@ elif HL == str("LUX"):
     print("Parvekkellinen hytti yläkannella")
 else:
     print("Virheellinen hyttiluokka")
-
+#

@@ -8,3 +8,4 @@ else:
     #lasketaan paljonko ikää puuttuu
     vajaus = 18-ikä
     print(f"Et voi äänestää, voit äänestää {vajaus} kuluttua.")
+#

@@ -16,3 +16,4 @@ else:
     hintaC = yli200*0.06
     hinta = hitaA+hintaB+hintaC
 print(f"sähkön kulutuksesi on {hinta} €")
+#

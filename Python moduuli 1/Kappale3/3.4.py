@@ -8,3 +8,4 @@ if chekki1 != int(chekki1) or chekki2 != int(chekki2) and chekki3 != int(chekki3
 else:
     print(f"Vuosi {vuosi} on karkaus vuosi")
 
+#

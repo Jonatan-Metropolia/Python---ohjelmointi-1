@@ -1,18 +1,14 @@
-yritykset = 0
-while yritykset<5:
-    sala_sana_tarkistus = 0
-    käyttäjä_tunnus_tarkistus = 0
-    sala_sana = input(str("Anna sala sana:"))
-    käyttäjä_tunnus = input(str("Anna käyttäjä tunnus:"))
-    if sala_sana == str("jonatan"):
-        sala_sana_tarkistus = 1
-    if käyttäjä_tunnus == str("gomes"):
-        käyttäjä_tunnus_tarkistus = 1
-    pääsy_oikeus = sala_sana_tarkistus+käyttäjä_tunnus_tarkistus
-    if pääsy_oikeus == 2:
-        yritykset = yritykset + 5
-        print("Tervetuloa")
-    yritykset = yritykset + 1
+import random
+arvoitus= (random.randint(1,10))
+oikein=1
+while oikein==1:
+    pelaajan_arvaus = input("Arvaa lukuni väliltä 1-10")
+    arvoitus2 = int(arvoitus)
+    if int(pelaajan_arvaus) < int(arvoitus2):
+        print("Lukuni on suurempi")
+    elif int(pelaajan_arvaus) > int(arvoitus2):
+        print("Lukuni on pienempi")
+    elif int(pelaajan_arvaus) == arvoitus2:
+        print("Oikein!")
+        oikein=0
 
-if pääsy_oikeus !=2:
-    print("Pääsy evätty")

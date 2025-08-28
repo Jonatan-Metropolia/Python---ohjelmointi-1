@@ -13,6 +13,7 @@ while n != "":
                 y=random.randint(1,10)
                 vastaus = x*y
 
+
                 pelaaja = int(input(f"{x}*{y}=?"))
 
                 if pelaaja == vastaus:

@@ -5,9 +5,9 @@ while loop == True:
 
     if luku != "":
         lista.append(int(luku))
-
     else:
         loop = False
+
 
 tupla = []
 for i in lista:

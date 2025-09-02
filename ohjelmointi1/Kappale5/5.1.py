@@ -12,6 +12,8 @@ while n > loop:
 summa = 0
 for i in nopat:
     summa = summa + i
+    print(nopat)
+
 
 print(summa)
 

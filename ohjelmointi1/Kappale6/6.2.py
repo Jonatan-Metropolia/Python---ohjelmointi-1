@@ -4,6 +4,8 @@ def ran (tahkot):
     return random.randint(1,tahkot)
 
 def main():
+    tahko = int(input("Anna nopan tahkojen määrä"))
+
     noppa = ran(tahko)
     heitot = 1
 
@@ -16,5 +18,4 @@ def main():
 
 
 
-tahko = int(input("Anna nopan tahkojen määrä"))
 main()

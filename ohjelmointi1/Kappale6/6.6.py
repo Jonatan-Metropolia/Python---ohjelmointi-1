@@ -22,3 +22,4 @@ diam_pizza2= float(input("Anna toisen pizzan halkaisija (cm) muodossa xx.xx"))
 price_pizza2= float(input("Anna toisen pizzan hinta (€)"))
 
 vertailu()
+#

@@ -2,7 +2,7 @@ loop = True
 luvut = []
 
 while loop == True:
-    luku = input('Anna kokonais luku, paina "ENTER" tyhjään riviin')
+    luku = input('Anna kokonais luku, paina "ENTER" tyhjään riviin lopettaaksesi')
     if luku != "":
         lukuint = int(luku)
         luvut.append(lukuint)

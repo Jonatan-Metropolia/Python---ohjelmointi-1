@@ -35,8 +35,10 @@ distance = geodesic(cordinates[0], cordinates[1]).km
 print(distance)
 
 
+'''
+Jokin bugi tulee välillä. liittyy kaiketi verkko palvelimeen josta sijainti haetaan.
+'''
 
-#Jokin bugi tulee välillä. liittyy kaiketi verkko palvelimeen josta sijainti haetaan.
 
 
 

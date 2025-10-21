@@ -2,8 +2,8 @@ import mysql.connector
 
 yhteys = mysql.connector.connect(
     host="localhost",
-    user="JonatanGM",    # vaihda omanimi
-    password = "123",    # vaihda oma salasana
+    user="JonatanGM",
+    password = "123",
     autocommit = True,
     port = 3306
 )

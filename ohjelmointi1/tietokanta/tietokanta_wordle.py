@@ -109,12 +109,11 @@ def wordle(loop, green, yellow, reset):
     vastaus_wordle = vastaus_wordle_def()  # määritellään wordle vastaus
     ohjeet_wordle(green, yellow, reset)
     while loop <6:
-
+                                    # SanaApu.com
         arvaus=wordle_5letters()
         wordle_arvaus = wordle_arvaus_def(arvaus)  # määritellään pelaajan arvaus
         wordle_checker = checker_wordle(vastaus_wordle, wordle_arvaus)  # määritellään pelaajan syöttämän sanan tarkistus
         loop=wordle_tulostus(wordle_color_code, wordle_checker, wordle_arvaus, loop, vastaus_wordle)[0] #Wordle tuloksen tulostus sekä loop tracking
-
 
 
 

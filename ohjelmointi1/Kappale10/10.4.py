@@ -39,7 +39,7 @@ class Kilpailu:
 
     def tulosta_tilanne(self, lap_counter):
 
-        print("\033[2J\033[H", end='')
+        print("\x1b[2J")
 
         self.car_list.sort(key=lambda car: car.distance, reverse=True)
         print('\n'*25)
@@ -83,5 +83,4 @@ while win is False:
     kilpailu.tunti_kului(lap_time)
     lap_counter = kilpailu.tulosta_tilanne(lap_counter)
     win = kilpailu.kilpailu_ohi(target)
-
 

@@ -25,7 +25,7 @@ for i in range(2):
     icao = input("Anna ICAO koodi")
     gps = icao_to_gps(icao)
 
-    geolocator = Nominatim(user_agent="Kappale8")
+    geolocator = Nominatim(user_agent="kpl8")
     location = geolocator.geocode(gps)
 
     cordinates_list= (location.latitude, location.longitude)
